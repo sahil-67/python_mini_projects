@@ -1,0 +1,4 @@
+import pyqrcode
+x = 'https://github.com/sahil-67/sahil-67'
+y = pyqrcode.create(x)
+y.svg("Sahil_github_id.svg" , scale = 8)
